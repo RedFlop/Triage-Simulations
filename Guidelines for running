@@ -1,0 +1,9 @@
+How to run the simulations:
+
+1. Make sure you have the latest stable version of python 3 for your operating system installed. Python can be downloaded here: https://www.python.org/downloads/
+2. Then install SimPy by following the instructions here: https://simpy.readthedocs.io/en/latest/simpy_intro/installation.html
+3. Once both Python and SimPy are installed run Model 1 and Model 2 like you would run any other Python code.
+
+Potential issues:
+1. SimPy hasn't been installed in the same path or enviorment as Python and can therefore not be found by python when being imported in the code.
+2. The code can take long to run since NUM_RUNS is set to a high value of 100,000. To run the simulations faster try lowering the value to a lower value such as 5,000.
